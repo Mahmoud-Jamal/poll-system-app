@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>poll system</h1>
+        <h2>what is your favorite programming language?</h2>
+        <button class="btn" >javascript</button>
+        <button class="btn" >python</button>
+        <button class="btn" >java</button>
+        <button class="btn" >c++</button>
+        <div>
+            <button class="btn1" onclick="submit()">submit vote</button>
+        <button class="btn1" onclick="reset()">reset</button></div>
+        <div class="result">
+            <p>java</p>
+            <progress class="progress" value="0" max="100"></progress>
+            <p>0%</p>
+        </div>
+        <div class="result">
+            <p>python</p>
+            <progress class="progress" value="0" max="100"></progress>
+            <p>0%</p>
+        </div>
+        <div class="result">
+            <p>javascript</p>
+            <progress class="progress" value="0" max="100"></progress>
+            <p>0%</p>
+        </div>
+        <div class="result">
+            <p>c++</p>
+            <progress class="progress" value="0" max="100"></progress>
+            <p>0%</p>
+        </div>
+    </div>
+    
+
+    <script src="js/index.js"></script>
+</body>
+</html>
