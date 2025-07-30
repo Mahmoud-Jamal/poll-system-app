@@ -41,6 +41,8 @@ function submit() {
         return;
     }
     updateResults();
+    console.log(votes);
+    
     btns.forEach(btn => {
         btn.style.backgroundColor = '#ced6e1';
         language = '';

@@ -1,12 +1,19 @@
 body{
     background-color: #e38f8f;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .card{
     background-color: #fff;
-    width: 50%;
+    min-width: 50%;
     margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px #ccc;
     text-align: center;
@@ -44,3 +51,8 @@ body{
 p{
     width: 100px;
 }
+@media (200px <= width <= 700px )  {
+    .card{
+        max-width: 80%;
+    }
+  }
